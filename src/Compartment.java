@@ -32,7 +32,7 @@ class TestCompartment{
     public static void main(String[] args) {
         Compartment[] arr = new Compartment[10];
         Random rand= new Random();
-        int n = rand.nextInt(5);
+        int n = rand.nextInt(1,5);
         System.out.println("n = "+n);
         if(n==1){
             arr[0] = new Luggage();
@@ -58,13 +58,9 @@ class TestCompartment{
             arr[2] = new Ladies();
             arr[3] = new General();
         }
-        if(n==0){
-            System.out.println("n must be from 1 to 4.");
-        }
-        else{
-            for(int i=0;i<5;i++){
+
+        for(int i=0;i<4;i++){
                 System.out.println(arr[i].notice());
-            }
         }
     }
 }
