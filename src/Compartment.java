@@ -31,7 +31,7 @@ class Luggage extends Compartment{
 class TestCompartment{
     public static void main(String[] args) {
         Compartment[] arr = new Compartment[10];
-        Random rand= new Random();
+        Random rand = new Random();
         int n = rand.nextInt(1,5);
         System.out.println("n = "+n);
         if(n==1){
