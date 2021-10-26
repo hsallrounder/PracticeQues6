@@ -42,20 +42,20 @@ class TestCompartment{
         }
         else if(n==2){
             arr[0] = new FirstClass();
-            arr[1] = new Ladies();
-            arr[2] = new General();
+            arr[1] = new General();
+            arr[2] = new Ladies();
             arr[3] = new Luggage();
         }
         else if(n==3){
-            arr[0] = new Ladies();
-            arr[1] = new General();
+            arr[0] = new General();
+            arr[1] = new Ladies();
             arr[2] = new Luggage();
             arr[3] = new FirstClass();
         }
         else if(n==4){
-            arr[0] = new FirstClass();
+            arr[0] = new Ladies();
             arr[1] = new Luggage();
-            arr[2] = new Ladies();
+            arr[2] = new FirstClass();
             arr[3] = new General();
         }
 
